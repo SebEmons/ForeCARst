@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+
+    <style>
+        #header {
+            background: url(../static/img/road.jpg) center center / cover no-repeat;
+        }
+        #tabelle2 {
+            font-size: 1em;
+        }
+    </style>
+
+    <title>NewCar</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand text-white" href="Landing.html"><i class="fas fa-car mr-2"></i>foreCARst</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="NewCar.html">Neues Auto anlegen <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="Oldcar.html">Alte Daten hochladen <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="History.html">Über foreCARst <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="Intro.html">FAQ <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+
+    <section id="header" class="jumbotron text-center">
+        <h1 class="display-3 text-white">foreCARst</h1>
+        <p class="lead text-white">Was kostet Dein Auto eigentlich wirklich?</p>
+        <a href="NewCar.html" class="btn btn-primary">Neues Fahrzeug eintragen</a>
+        <a href="Oldcar.html" class="btn btn-success">Altes Fahrzeug hochladen/Tanken</a>
+    </section>
+
+<section class="container-fluid px-5", id="tabelle2">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div id="carData" class="text-left">
+                <h2 class=""><i class="fas fa-cog mr-2"></i>Laden und Modifizieren gespeicherter Daten</h2></br>
+                Bitte trage hier Deine Daten ein!</br>
+                    <form method = "POST">
+                        <table class="table table-borderless">
+                        <thead>
+                        <tr>
+                            <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>Dateiname:</td>
+                            <td><input name="Datei", id="Datei", placeholder="Dateiname"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td><strong>Eingaben zum letzten Tankvorgang</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>Kilometerstand beim Tanken:</td>
+                            <td><input type="number", step="1", name="TankenKilometerstand", id="TankenKilometerstand", placeholder="Km-Stand beim Tanken"> km</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>Datum beim Tanken:</td>
+                            <td><input type="date", name="TankenDatum", id="TankenDatum", placeholder="dd.mm.jjjj"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>Getankte Liter:</td>
+                            <td><input type="number", step="0.1", name="TankenLiter", id="TankenLiter", placeholder="Getankte Liter"> Liter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td>Tankkosten:</td>
+                            <td><input type="number", step="0.01", name="TankenKosten", id="TankenKosten", placeholder="Tankkosten"> €</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        </br>
+                        Unter welchem Namen sollen die neuen Daten gespeichert werden? (Wenn Du den vorherigen Dateinamen angibst, so wird die alte Datei überschrieben.)<br>
+                        Dateiname: <input name="Datei2", id="Datei2", placeholder="Dateiname"></br>
+                        <br>
+                        <button type="submit" class="btn btn-success">Speichern</button>
+                    </form><br>
+	            </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="../static/img/ferrari.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
