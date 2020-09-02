@@ -1,6 +1,6 @@
 <img src="images/logo.jpg" width="300">
 
-# The helping hand for car calculation!
+# The current and future costs of your car at a glance!
 ## Brief summary of the project
 Are you also annoyed when you want to calculate the cost of your car, that it is a huge effort to collect everything together from all fuel receipts, bills etc. to taxes and insurance expenses? Or even worse, do you even know how much you spend on your car? If you have lost track of all your expenses and upcoming expenses or if you need a simple application to replace your confusing Excel list with an extra on calculation of upcoming expenses, then foreCARst is the right website for you with a once created profile, easy direct input of expenses when they occur and a user-friendly interface we create maximum transparency for today’s and future expenses.
 
