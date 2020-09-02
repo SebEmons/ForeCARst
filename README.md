@@ -21,7 +21,7 @@ At the beginning of the project we identified MVPs and created a schedule for im
 
 
 ## Our Team
-|  | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Lara.jpg"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Leon.jpg"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Sebastian.jpg"> |
+|  | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Lara.jpg" width="200"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Leon.jpg" width="150"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Sebastian.jpg" width="200"> |
 | --- | --- | --- | --- |
 | | Lara Stahl | Leon Habbes | Sebastian Emons |
 | Track	| Data Science Track Python	| Web Development Track	| Data Science Track Python |
