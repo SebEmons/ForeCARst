@@ -73,7 +73,7 @@
                         <tr>
                             <th scope="row"></th>
                             <td>Dateiname:</td>
-                            <td><input name="Datei", id="Datei", placeholder="Dateiname"></td>
+                            <td><input name="Datei", required="required", id="Datei", placeholder="Dateiname"></td>
                         </tr>
                         <tr>
                             <th scope="row"></th>
@@ -83,28 +83,28 @@
                         <tr>
                             <th scope="row"></th>
                             <td>Kilometerstand beim Tanken:</td>
-                            <td><input type="number", step="1", name="TankenKilometerstand", id="TankenKilometerstand", placeholder="Km-Stand beim Tanken"> km</td>
+                            <td><input type="number", step="1", name="TankenKilometerstand", required="required", id="TankenKilometerstand", placeholder="Km-Stand beim Tanken"> km</td>
                         </tr>
                         <tr>
                             <th scope="row"></th>
                             <td>Datum beim Tanken:</td>
-                            <td><input type="date", name="TankenDatum", id="TankenDatum", placeholder="dd.mm.jjjj"></td>
+                            <td><input type="date", name="TankenDatum", required="required", id="TankenDatum", placeholder="dd.mm.jjjj"></td>
                         </tr>
                         <tr>
                             <th scope="row"></th>
                             <td>Getankte Liter:</td>
-                            <td><input type="number", step="0.1", name="TankenLiter", id="TankenLiter", placeholder="Getankte Liter"> Liter</td>
+                            <td><input type="number", step="0.1", name="TankenLiter", required="required", id="TankenLiter", placeholder="Getankte Liter"> Liter</td>
                         </tr>
                         <tr>
                             <th scope="row"></th>
                             <td>Tankkosten:</td>
-                            <td><input type="number", step="0.01", name="TankenKosten", id="TankenKosten", placeholder="Tankkosten"> €</td>
+                            <td><input type="number", step="0.01", name="TankenKosten", required="required", id="TankenKosten", placeholder="Tankkosten"> €</td>
                         </tr>
                         </tbody>
                         </table>
                         </br>
                         Unter welchem Namen sollen die neuen Daten gespeichert werden? (Wenn Du den vorherigen Dateinamen angibst, so wird die alte Datei überschrieben.)<br>
-                        Dateiname: <input name="Datei2", id="Datei2", placeholder="Dateiname"></br>
+                        Dateiname: <input name="Datei2", required="required", id="Datei2", placeholder="Dateiname"></br>
                         <br>
                         <button type="submit" class="btn btn-success">Speichern</button>
                     </form><br>

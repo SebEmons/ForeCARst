@@ -72,22 +72,22 @@
                   <tr>
                     <th scope="row"></th>
                     <td>Marke:</td>
-                    <td><input name="Marke", id="Marke", placeholder="Automarke"></td>
+                    <td><input name="Marke", required="required", id="Marke", placeholder="Automarke"></td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Modell:</td>
-                    <td><input name="Modell", id="Modell", placeholder="Modellbezeichnung"></td>
+                    <td><input name="Modell", required="required", id="Modell", placeholder="Modellbezeichnung"></td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Erstzulassung:</td>
-                    <td><input type="date", name="Erstzulassung", id="Erstzulassung", placeholder="dd.mm.jjjj"></td>
+                    <td><input type="date", name="Erstzulassung", required="required", id="Erstzulassung", placeholder="dd.mm.jjjj"></td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Kilometerstand:</td>
-                    <td><input type="number", step="1", name="Kilometerstand", id="Kilometerstand", placeholder="Kilometerstand"> km</td>
+                    <td><input type="number", step="1", name="Kilometerstand", required="required", id="Kilometerstand", placeholder="Kilometerstand"> km</td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
@@ -99,33 +99,33 @@
                         *Achtung: Zurzeit sind nur Benzin oder Diesel als Kraftstoffeingabe möglich.
                       </div>
                     </div></td>
-                    <td><input name="Motor", id="Motor", placeholder="Diesel oder Benzin"></td>
+                    <td><input name="Motor", required="required", id="Motor", placeholder="Diesel oder Benzin"></td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Hubraum:</td>
-                    <td><input type="number", step="1", name="Hubraum", id="Hubraum", placeholder="Hubraum"> cm³</td>
+                    <td><input type="number", step="1", name="Hubraum", required="required", id="Hubraum", placeholder="Hubraum"> cm³</td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Verbrauch:</td>
-                    <td><input type="number", step="0.01", name="Verbrauch", id="Verbrauch", placeholder="Verbrauch"> L/100 km</td>
+                    <td><input type="number", step="0.01", name="Verbrauch", required="required", id="Verbrauch", placeholder="Verbrauch"> L/100 km</td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Versicherungskosten:</td>
-                    <td><input type="number", step="0.01", name="Versicherungskosten", id="Versicherungskosten", placeholder="Versicherungskosten"> €/Monat</td>
+                    <td><input type="number", step="0.01", name="Versicherungskosten", required="required", id="Versicherungskosten", placeholder="Versicherungskosten"> €/Monat</td>
                   </tr>
                   <tr>
                     <th scope="row"></th>
                     <td>Steuern:</td>
-                    <td><input type="number", step="0.01", name="Steuern", id="Steuern", placeholder="Steuern"> €/Jahr</td>
+                    <td><input type="number", step="0.01", name="Steuern", required="required", id="Steuern", placeholder="Steuern"> €/Jahr</td>
                   </tr>
                 </tbody>
               </table>
             </br>
             Unter welchem Namen sollen die neuen Daten gespeichert werden?<br>
-            Dateiname: <input name="Datei3", id="Datei3", placeholder="Dateiname"></br>
+            Dateiname: <input name="Datei3", required="required", id="Datei3", placeholder="Dateiname"></br>
             <br>
             <button type="submit" class="btn btn-primary">Senden</button>
           </form><br>
