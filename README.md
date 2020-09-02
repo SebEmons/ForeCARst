@@ -30,7 +30,7 @@ As a result you get information about upcoming expenses:
 Of course, foreCARst has additional abilities. So make sure, you check it out on your own!
 
 ## Our Team
-|  | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Lara.jpg" width="200"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Leon.jpg" width="150"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Sebastian.jpg" width="250"> |
+|  | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Lara.jpg" width="200"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Leon.jpg" width="150"> | <img src="https://github.com/SebEmons/ForeCARst/blob/master/images/Sebastian.jpg" width="350"> |
 | --- | --- | --- | --- |
 | | Lara Stahl | Leon Habbes | Sebastian Emons |
 | Track	| Data Science Track Python	| Web Development Track	| Data Science Track Python |
